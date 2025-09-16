@@ -1,8 +1,7 @@
-
+const carsActive = ["KIA", "Toyota", "Lamborgini"];
 
  function Mycar(cars){
     for(let i = 0;i<cars; i++){
-    const carsActive = ["KIA", "Toyota", "Lamborgini"];
     const licensePlate = "DB" + Math.floor(Math.random()* (1000 - 9999) + 9999);
     const Randomcar = Math.floor(Math.random()* carsActive.length);
     const seats = Math.floor(Math.random()* (4- 6) + 6)
