@@ -1,5 +1,29 @@
-#carDiv{
+#carDiv {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+}
+#carDiv ul li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.5em;
+}
+#carDiv ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#carDiv ul img{
+    height: auto;
+    width: 20vw;
+}
+#cars{
+display: flex;
+}
+#carDiv h1{
+font-size: 2.5em;
+}
+#carTitle{
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
 }
