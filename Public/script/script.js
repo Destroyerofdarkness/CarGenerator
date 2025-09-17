@@ -1,5 +1,5 @@
 const carsActive = [
-  KIA ={
+KIA = {
   name: "KIA",
   seats:5,
   image: "./img/KIA.avif"
