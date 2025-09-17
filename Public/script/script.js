@@ -49,4 +49,4 @@ function Mycar(cars) {
   });
 }
 
-localStorage.clear();
+
